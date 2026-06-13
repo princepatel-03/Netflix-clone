@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    height: 1800px;
+    display: flex;
+    align-items: center;
+   
+      background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),
+    url('netflix-bg.jpg');
+ 
+}
+.n-logo{
+    height: 180px;
+    width: 360px;
+    margin-left: 300px;
+    display: inline;
+    align-self: flex-start;
+    background-image: url("netflix-logo.png");
+    background-size: cover;
+}
+
+.login{
+    color: white;
+    font-size: 45px;
+    display: inline;
+   margin-left: 400px;
+   margin-bottom: 300px;
+}
+
+.text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: px;
+font-weight: px;
+}
+.text h1{
+    font-size: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text h4{
+    margin-left: 320px;
+}
+.text p1 {
+    margin-left: 190px;
+    font-size: 130px;
+}
+.text p{
+    font-size: 35px;
+    margin-left: 120px;
+}
+
+.ipt{
+    border-radius: 5px;
+    background-color: rgba(28, 26, 26, 0.8);
+   border: 1px solid rgba(255, 255, 255, 0.518);
+    font-size: 30px;
+ padding: 25px;
+    width: 700px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.email button{
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(201, 14, 14);
+    font-size: 50px;
+    color: white;
+    height: 110px;
+    width: 400px;
+    margin-top: 20px;
+}
